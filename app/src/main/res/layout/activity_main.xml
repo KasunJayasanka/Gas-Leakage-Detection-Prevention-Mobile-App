@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="412dp"
+        android:layout_height="732dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView19"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/desktop_wallpaper_plain_white_iphone_white_apple_thumbnail" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="543dp"
+        android:layout_height="928dp"
+        android:alpha="0.5"
+        app:srcCompat="@drawable/photo_1558591710_4b4a1ae0f04d"
+        tools:layout_editor_absoluteX="-52dp"
+        tools:layout_editor_absoluteY="-51dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="412dp"
+        android:layout_height="114dp"
+        android:background="@drawable/custom_header"
+        android:textAlignment="center"
+        android:textColor="#F1F0F0"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monitor Your System"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.291"
+        app:layout_constraintStart_toEndOf="@+id/bk_btn_wlcm"
+        app:layout_constraintTop_toTopOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <ImageButton
+        android:id="@+id/bk_btn_wlcm"
+        android:layout_width="55dp"
+        android:layout_height="54dp"
+        android:background="@drawable/custom_button"
+        android:tint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.033"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="240dp"
+        android:layout_height="377dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.217"
+        app:srcCompat="@drawable/istockphoto_1334978857_612x612_removebg_preview" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="411dp"
+        android:layout_height="23dp"
+        android:background="#7145BF"
+        android:text="Version 1.1"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#F6F1F1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/rpt_btn"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="171dp"
+        android:layout_height="171dp"
+        android:background="@drawable/dashboard_button"
+        android:text="\n\n\n\n\n\n\n Generate \nGas Weight Report"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.431"
+        app:layout_constraintStart_toEndOf="@+id/dash_btn"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.758" />
+
+    <Button
+        android:id="@+id/dash_btn"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="171dp"
+        android:layout_height="171dp"
+        android:background="@drawable/dashboard_button"
+        android:text="\n\n\n\n\n\n\n Dashboard"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.758" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="65dp"
+        android:layout_height="109dp"
+        app:layout_constraintBottom_toBottomOf="@+id/rpt_btn"
+        app:layout_constraintEnd_toEndOf="@+id/rpt_btn"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="@+id/rpt_btn"
+        app:layout_constraintTop_toTopOf="@+id/rpt_btn"
+        app:layout_constraintVertical_bias="0.307"
+        app:srcCompat="@drawable/nicepng_data_icon_png_8502390" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="111dp"
+        android:layout_height="93dp"
+        app:layout_constraintBottom_toBottomOf="@+id/dash_btn"
+        app:layout_constraintEnd_toEndOf="@+id/dash_btn"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="@+id/dash_btn"
+        app:layout_constraintTop_toTopOf="@+id/dash_btn"
+        app:layout_constraintVertical_bias="0.371"
+        app:srcCompat="@drawable/dashboard_128" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

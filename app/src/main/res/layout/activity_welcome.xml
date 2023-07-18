@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Welcome">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="454dp"
+        android:layout_height="809dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/desktop_wallpaper_plain_white_iphone_white_apple_thumbnail" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="616dp"
+        android:layout_height="1286dp"
+        android:alpha="0.5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.295"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/photo_1558591710_4b4a1ae0f04d" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="373dp"
+        android:layout_height="122dp"
+        android:background="@drawable/dashboard_button"
+        android:text="LP Gas \nMonitoring System"
+        android:textAlignment="center"
+        android:textColor="#F1F0F0"
+        android:textSize="42sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.091" />
+
+    <Button
+        android:id="@+id/str_button"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="298dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/dashboard_button"
+        android:text="Let's Get Started"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.986" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="49dp"
+        android:layout_height="41dp"
+        android:backgroundTint="#B54949"
+        android:rotation="180"
+        app:layout_constraintBottom_toBottomOf="@+id/str_button"
+        app:layout_constraintEnd_toEndOf="@+id/str_button"
+        app:layout_constraintHorizontal_bias="0.899"
+        app:layout_constraintStart_toStartOf="@+id/str_button"
+        app:layout_constraintTop_toTopOf="@+id/str_button"
+        app:layout_constraintVertical_bias="0.608"
+        app:srcCompat="?attr/homeAsUpIndicator" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="550dp"
+        android:layout_height="500dp"
+        android:src="@drawable/ig_smoke_dedector_alarm_unscreen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.415"
+        app:layout_constraintStart_toStartOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.497" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

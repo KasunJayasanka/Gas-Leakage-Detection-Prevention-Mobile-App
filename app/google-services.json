@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "32680845488",
+    "project_id": "fcmproject-f6621",
+    "storage_bucket": "fcmproject-f6621.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32680845488:android:2830528f8efd0096d39b75",
+        "android_client_info": {
+          "package_name": "com.example.sensor_detection"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvSHMxBIPM2jfk3H6GnumdOqPixSDhF7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
